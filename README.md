@@ -1,5 +1,5 @@
 ## Simple State Machine
-#### by Scott Kildall
+#### by Sebastian Rojas
 
 
 ### Overview

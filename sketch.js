@@ -1,7 +1,6 @@
 /***********************************************************************************
-	SimpleStateMachine - TEMPLATE
-	by Scott Kildall
-
+	SimpleStateMachine_new 
+	by Sebastian Rojas
 	Template:
 
 	(1) Add your own PNG files in the assets folder. Make sure they match the names ***exactly*** of the existing PNGs.
@@ -64,7 +63,7 @@ function setup() {
 
 // Very simple, sets the background color and calls your state machine function
 function draw() {
-  background(192);
+  background(255,153,255);
 
   // will call your state machine function
   drawFunction();
@@ -76,40 +75,40 @@ function draw() {
 drawOne = function() {
    image(images[0],width/2, height/2);
 
-   fill(0,0,0);
-   text("State One", width/2, height - gTextOffset);
+   fill(random(255),random(255),random(255));
+   text("Cozy", width/2, height - gTextOffset);
 }
 
 //-- drawTwo() will draw the image at index 1 from the array
 drawTwo = function() {
    image(images[1],width/2, height/2);
 
-   fill(240,120,0);
-   text("State Two", width/2, height - gTextOffset);
+   fill(random(255),random(255),random(255));
+   text("Dizzy", width/2, height - gTextOffset);
 }
 
 //-- drawOne() will draw the image at index 2 from the array
 drawThree = function() {
    image(images[2],width/2, height/2);
 
-   fill(40,230,120);
-   text("State Three", width/2, height - gTextOffset);
+   fill(random(255),random(255),random(255));
+   text("Excited", width/2, height - gTextOffset);
 }
 
 //-- drawOne() will draw the image at index 3 from the array
 drawFour = function() {
    image(images[3],width/2, height/2);
 
-   fill(255,255,178);
-   text("State Four", width/2, height - gTextOffset);
+   fill(random(255),random(255),random(255));
+   text("Sleepy", width/2, height - gTextOffset);
 }
 
 //-- drawOne() will draw the image at index 4 from the array
 drawFive = function() {
    image(images[4],width/2, height/2);
 
-   fill(230,50,50);
-   text("State Five", width/2, height - gTextOffset);
+   fill(random(255),random(255),random(255));
+   text("Stuffed", width/2, height - gTextOffset);
 }
 
 
